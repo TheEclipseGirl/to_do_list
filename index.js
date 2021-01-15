@@ -46,6 +46,7 @@ $(document).ready(function(){
             return task.id !== taskId
         });
         $(`#task-div-${taskId}`).remove();
+        changeTotalTask();
     }
 
 
