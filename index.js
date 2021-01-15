@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
     var tasks = [], count = 1;
 
     const showNotification =(type,text)=>{
@@ -148,4 +148,4 @@ $(document).ready(function(){
 
     $("#completed-btn").click(() => render("completed"));
 
-});
+// });
