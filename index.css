@@ -1,13 +1,11 @@
-header p{
-    position: absolute;
-    top: 100px;
+header img {
+    width: 100vw;
+}
+.title-todo{
     width: 100%;
     text-align: center;
     font-size: 45px;
     font-weight: bolder;
-}
-header img {
-    width: 100vw;
 }
 .todo-container{
     margin-top: -50px;
