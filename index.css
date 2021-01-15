@@ -59,3 +59,9 @@ header img {
     opacity: 0;
     cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+    .cross{
+        opacity: 1;
+    }
+}
