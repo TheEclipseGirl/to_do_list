@@ -32,12 +32,12 @@ $(document).ready(function(){
             </div>`);
             addEventListenerToTasks();
             count++;
+            changeTotalTask();
             showNotification('success',"Task Added")
         }
         else{
             showNotification('error','Add Some task')
         }
-        changeTotalTask();
     }
 
     const deleteATask = (event) => {
