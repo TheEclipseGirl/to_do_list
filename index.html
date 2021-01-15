@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>To do list</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="./node_modules/noty/lib/noty.css" rel="stylesheet">
+        <link rel="stylesheet" href="./node_modules/noty/lib/themes/mint.css">
+
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <section>
+            <header>
+                <img src="./images/bg-desktop-dark.jpg" alt="">
+                <p class="text-light">My To-do List</p>
+            </header>
+
+            <div class="todo-container shadow bg-light mb-5 col-6 mx-auto p-5 rounded">
+                <div>
+                    <div class="form-group" style="text-align: center;">
+                        <input class="form-control" id="add-task-input" type="text" placeholder="Create a new to do...">
+                        <button id="add-btn" class="btn btn-success col-4 mt-2">
+                            Add Task
+                        </button>
+                    </div>
+                </div>
+    
+                <div id="tasks-container">                
+                    
+                </div>
+                <hr>
+                <div>
+                    <p id="tasks-left-container">
+                        <span id="tasks_left">0</span> task/s left
+                    </p>
+                    <div>
+                        <button class="btn btn-primary" id="all-btn">
+                            All
+                        </button>
+                        <button class="btn btn-warning" id="active-btn">
+                            Active
+                        </button>
+                        <button class="btn btn-dark" id="completed-btn">
+                            Completed
+                        </button>
+                        <button class="btn btn-danger" id="clear-completed-btn">
+                            Clear completed
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <script src="./node_modules/noty/lib/noty.js" type="text/javascript"></script>
+
+        <!-- font awesome cdn -->
+        <script src="https://kit.fontawesome.com/c90807128e.js" crossorigin="anonymous"></script>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+        <!-- bootstrap cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

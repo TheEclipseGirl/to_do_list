@@ -1,0 +1,63 @@
+header p{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+header img {
+    width: 100vw;
+}
+.todo-container{
+    margin-top: -50px;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0, 0.3);
+}
+#add-btn {
+    text-align: center;
+}
+#tasks-left-container{
+    font-size: 13px;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: black;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.task-tab {
+    margin-bottom: 15px;
+    /* padding-left: 30px; */
+    padding: 10px 0 10px 30px;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: all 0.2s;
+}
+.task-tab:hover {
+    box-shadow: 1px 1px 8px 0 rgba(0,0,0,0.15);
+    transform: scale(1.02);
+}
+.task-tab:hover > .cross{
+    opacity: 1;
+    transition: all 0.3s;
+}
+.cross{
+    text-align: end;
+    opacity: 0;
+    cursor: pointer;
+}
